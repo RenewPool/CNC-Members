@@ -38,7 +38,9 @@ Add your pool information into the json list (use Copy-paste) from one of the ot
 - Please specify whether you are looking to join as an **Active** or **Passive** member in the "membershipType" field
 ![image](https://user-images.githubusercontent.com/116071877/199316145-0618aece-1c0d-44a7-8432-1bfbb8d8023e.png)
 
-- Add the stake address (BECH32 format) of the wallet which you are using to donate to TetikasaAla, to make it possible for us to automatically track your donations (**donationWalletStakeAddress** parameter)
+- Add the epoch in which you joined the CNCAla ISPO, in the parameter **ispoEpochStart** ". For pools starting from the beginning it is epoch 377. 
+
+- Add the stake address (BECH32 format "stake1...") of the wallet(s) which you are using to donate to TetikasaAla, to make it possible for us to automatically track your donations (**donationWalletStakeAddress** parameter). If you have multiple wallets you donate from, use the format "donationWalletStakeAddress": ["stake1...", "stake1..."]
 
 - After you added all your information to the list click Commit changes:
 
